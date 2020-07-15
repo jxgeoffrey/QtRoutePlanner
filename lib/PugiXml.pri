@@ -1,0 +1,4 @@
+LIBTARGET = PugiXml
+BASEDIR   = $${PWD}
+INCLUDEPATH += $${BASEDIR}
+LIBS += -L$${BASEDIR} -lPugiXml
