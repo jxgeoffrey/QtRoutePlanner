@@ -28,7 +28,6 @@ CONFIG += c++17
 
 SOURCES += \
         src/main.cpp \
-        src/mainwindow.cpp \
         src/model.cpp \
         src/rasterwindow.cpp \
         src/render.cpp \
@@ -40,11 +39,8 @@ HEADERS += \
         inc/rasterwindow.h \
         inc/render.h \
         inc/route_model.h \
-        inc/route_planner.h \
-        inc/mainwindow.h
+        inc/route_planner.h
 
-FORMS += \
-        src/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
